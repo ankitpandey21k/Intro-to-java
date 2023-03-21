@@ -1,3 +1,8 @@
+Sample Input 2:
+           Always indent your code
+Sample Output 2:
+          code your indent Always
+---------------------------------------------------------------------
 package strings;
 
 import java.util.Scanner;
