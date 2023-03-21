@@ -1,3 +1,13 @@
+Sample Input 1:
+                abc
+  Sample Output 1:
+                a 
+                ab 
+                abc 
+                b 
+                bc 
+                c 
+
 package strings;
 
 public class substring {
