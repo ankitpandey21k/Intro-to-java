@@ -1,7 +1,18 @@
+Sample Input 1:
+                 abcde
+                 baedc
+Sample Output 1:
+                 true
+Sample Input 2:
+                 abc
+                 cbd
+Sample Output 2:
+                false
+
+			
+			
 package Strings;
-
 import java.util.Scanner;
-
 public class check_permutation {
 
 	public static void main(String[] args) {
@@ -12,9 +23,7 @@ public class check_permutation {
 		
 		boolean ans=ispermutation(str,str1);
 		System.out.println(ans);
-
 	}
-
 	public static boolean ispermutation(String str, String str1) {
 		// TODO Auto-generated method stub
 		int arr1[] = new int[26];
@@ -32,7 +41,6 @@ public class check_permutation {
 				return false;
 			}
 		}
-		 
 		return true;
 	}
 }
