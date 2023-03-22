@@ -1,3 +1,15 @@
+Sample Input 1:
+              aabccbaa
+              a
+Sample Output 1:
+              bccb
+Sample Input 2:
+             xxyyzxx
+              y
+Sample Output 2:
+             xxzx
+
+
 package Strings;
 
 import java.util.Scanner;
